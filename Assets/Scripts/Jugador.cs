@@ -94,6 +94,15 @@ public class NewMonoBehaviourScript : MonoBehaviour
          
             SceneManager.LoadScene("Nivel1");
         }
+
+        if (collision.transform.CompareTag("ZonaMuerte"))
+        {
+            
+            audioSource.PlayOneShot(sonidoMuerto);
+
+            // Reinicia la escena "Nivel1"
+            SceneManager.LoadScene("Nivel1");
+        }
     }
 
 }
