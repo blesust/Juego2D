@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu Inicio.unity
+    guid: afd1c60e778a0e2498e38b32598e6a30
+  - enabled: 1
+    path: Assets/Scenes/Nivel1.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Victoria.unity
+    guid: 20da0bcc93597554c9b5b1a138162d14
+  - enabled: 1
+    path: Assets/Scenes/Credito.unity
+    guid: 3c2580c3d8422854491aa79a002718f5
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
